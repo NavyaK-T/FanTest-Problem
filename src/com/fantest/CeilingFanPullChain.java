@@ -24,7 +24,6 @@ public class CeilingFanPullChain {
 	@Override
 	public String toString() {
 		return "CeilingFanPullChain [currentState=" + currentSpeed + "]";
-		//return String.format("Fan Wall Control [current = %s]", currentState);
 	}
 	
 }

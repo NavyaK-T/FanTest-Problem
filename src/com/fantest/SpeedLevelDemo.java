@@ -10,7 +10,6 @@ public class SpeedLevelDemo {
 		CeilingFanPullChain chain = new CeilingFanPullChain();
 		String direction = chain.getCurrentDirection();
         while (true) {
-        	
         	BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         	System.out.print("Enter direction to rotate in Forward/Reverse direction: ");
         	try { 
